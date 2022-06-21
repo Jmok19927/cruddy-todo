@@ -190,6 +190,9 @@ describe('todos', () => {
   describe('delete', () => {
     beforeEach((done) => {
       todos.create('delete this todo', done);
+      // todos.create('testing create');
+      // todos.create('testing create number 2', done);
+
     });
 
     it('should not change the counter', (done) => {
